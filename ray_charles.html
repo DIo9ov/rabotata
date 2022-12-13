@@ -6,24 +6,85 @@
 h1.zaglavie
 {
   font-size:3vw;
-  margin-left: 43%;
+ <--! margin-left:280%; >
   padding-top: 0%;
-  color:#ffffe6;
+ 
 }
 p
 {
  color:#ffffe6;
 }
+a:link, a:visited
+{
+   margin-left:43%;
+   text-decoration: none;
+   display: inline-block;
+    color:#ffffe6;
+}
+a:hover, a:active {
+   background-color: transperant;
+   cursor: pointer;
+   color:#fffff3;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 30%;
+  padding-left:5%;
+}
+
+th, td {
+  text-align: left;
+  padding: 1%;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffe6;
+}
+tr:nth-child(even) {
+  background-color: #fffff6;
+}
+
 
 </style>
 </head>
 <body style= "background-color:#00001d;">
 
-<h1 class="zaglavie">Jazзвезди</h1>
+<a href="index.html"><h1 class="zaglavie">Jazзвезди</h1></a>
 <div class="snimka_tekst">
 <img style="padding-left: 5%; padding-top: 2%" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Ray_Charles_1964.jpg" width="27%">
 <p style= " position: absolute; margin-top: -20%;padding-left: 34%;"> ,,Братко Чарлс'' е музикант, пианист и интелигент. Негова страст е музиката, която съчетава джаз, блус и госпел. Сред неговите най - успешни произведения са: ,,Georgia On My Mind", ,,Hit the Road Jack" и ,,What'd I Say" </p>
 </div>
+ 
+ <table>
+  <tr>
+  <th>Песен</th>
+  <th>Изпълнител</th>
+  <th>Пусни</th>
+  </tr>
+  <tr>
+  <td>Georgia On My Mind </td>
+  <td>Рей Чарлс</td>
+  <td>$100</td>
+  </tr>
+  <tr>
+  <td>Lois</td>
+  <td>Griffin</td>
+  <td>$150</td>
+  </tr>
+  <tr>
+  <td>Joe</td>
+  <td>Swanson</td>
+  <td>$300</td>
+  </tr>
+  <tr>
+  <td>Cleveland</td>
+  <td>Brown</td>
+  <td>$250</td>
+  </tr>
+</table>
 
 
 
