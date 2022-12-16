@@ -2,13 +2,14 @@
 <html>
 <head>
 <title>Jazzvezdi</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <style>
 h1.zaglavie
 {
   font-size:3vw;
  <--! margin-left:280%; >
   padding-top: 0%;
- 
+  user-select: none;
 }
 p
 {
@@ -25,6 +26,7 @@ a:hover, a:active {
    background-color: transperant;
    cursor: pointer;
    color:#fffff3;
+  
 }
 
 
@@ -49,6 +51,31 @@ tr:nth-child(even) {
 
 
 </style>
+<script>
+  let toggle = () => {
+
+    let element = document.getElementById("tuka");
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+       element.removeAttribute("hidden");
+    } else {
+       element.setAttribute("hidden", "hidden");
+    }
+  }
+  
+    let togglee = () => {
+
+    let element = document.getElementById("tukaa");
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+       element.removeAttribute("hidden");
+    } else {
+       element.setAttribute("hidden", "hidden");
+    }
+  }
+</script>
 </head>
 <body style= "background-color:#00001d;">
 
@@ -67,12 +94,12 @@ tr:nth-child(even) {
   <tr>
   <td>Georgia On My Mind </td>
   <td>Рей Чарлс</td>
-  <td>$100</td>
+  <td><button onclick="toggle();">Пусни</button></td>
   </tr>
   <tr>
   <td>Lois</td>
   <td>Griffin</td>
-  <td>$150</td>
+  <td><button onclick="togglee();">Пусни</button></td>
   </tr>
   <tr>
   <td>Joe</td>
@@ -86,7 +113,22 @@ tr:nth-child(even) {
   </tr>
 </table>
 
+<!--<iframe id="tuka" style = "visible"width="560" height="315" src="https://www.youtube.com/embed/-DFhuE_XeT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+ <div id=tuka hidden>
+ <video width="320" height="240" controls>
+  <source src="https://upload.wikimedia.org/wikipedia/commons/5/59/Young_Mr._Jazz_%281919%29.webm
+" type="video/webm">
+ 
+Your browser does not support the video tag.
+</video> 
+</div>
+<div id=tukaa hidden>
+ <audio controls>
+  <source src="https://upload.wikimedia.org/wikipedia/commons/8/87/Jazz_Trombone.ogg" type="audio/ogg">
+Your browser does not support the audio element.
+</audio> 
+</div>
 
-
+https://upload.wikimedia.org/wikipedia/commons/8/87/Jazz_Trombone.ogg
 </body>
 </html> 
