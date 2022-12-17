@@ -1,57 +1,66 @@
  <!DOCTYPE html>
 <html>
-<head>
-<title>Jazzvezdi</title>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<style>
-h1.zaglavie
-{
-  font-size:3vw;
- <--! margin-left:280%; >
-  padding-top: 0%;
-  user-select: none;
-}
-p
-{
- color:#ffffe6;
-}
-a:link, a:visited
-{
-   margin-left:43%;
-   text-decoration: none;
-   display: inline-block;
+ <head>
+  <title>Jazzvezdi</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+   h1.zaglavie
+   {
+    font-size:3vw;
+    <--! margin-left:280%; >
+    padding-top: 0%;
+    user-select: none;
+   }
+   p
+   {
     color:#ffffe6;
-}
-a:hover, a:active {
-   background-color: transperant;
-   cursor: pointer;
-   color:#fffff3;
-  
-}
+   }
+   #ato:link, #ato:visited
+   {
+    margin-left:43%;
+    text-decoration: none;
+    display: inline-block;
+    color:#ffffe6;
+   }
+   #ato:hover, #ato:active 
+   {
+    background-color: transperant;
+    cursor: pointer;
+    color:#fffff3;
+   }
 
 
 
-table {
-  border-collapse: collapse;
-  width: 30%;
-  padding-left:5%;
-}
+   table
+   {
+    border-collapse: collapse;
+    width: 30%;
+    padding-left:5%;
+   }
 
-th, td {
-  text-align: left;
-  padding: 1%;
-}
+   th, td 
+   {
+    text-align: left;
+    padding: 1%;
+   }
 
-tr:nth-child(odd) {
-  background-color: #ffffe6;
-}
-tr:nth-child(even) {
-  background-color: #fffff6;
-}
+    tr:nth-child(odd) 
+   {
+    background-color: #ffffe6;
+   }
+   tr:nth-child(even) 
+   {
+    background-color: #fffff6;
+   }
+   #link
+   {
+    position: absolute;
+    padding-left:5%;
+	margin-bottom:0%;
+   }
 
-
-</style>
-<script>
+  </style>
+  <script>
   let toggle = () => {
 
     let element = document.getElementById("tuka");
@@ -62,7 +71,7 @@ tr:nth-child(even) {
     } else {
        element.setAttribute("hidden", "hidden");
     }
-  }
+   }
   
     let togglee = () => {
 
@@ -75,60 +84,76 @@ tr:nth-child(even) {
        element.setAttribute("hidden", "hidden");
     }
   }
-</script>
-</head>
-<body style= "background-color:#00001d;">
-
-<a href="index.html"><h1 class="zaglavie">Jazзвезди</h1></a>
-<div class="snimka_tekst">
-<img style="padding-left: 5%; padding-top: 2%" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Ray_Charles_1964.jpg" width="27%">
-<p style= " position: absolute; margin-top: -20%;padding-left: 34%;"> ,,Братко Чарлс'' е музикант, пианист и интелигент. Негова страст е музиката, която съчетава джаз, блус и госпел. Сред неговите най - успешни произведения са: ,,Georgia On My Mind", ,,Hit the Road Jack" и ,,What'd I Say" Чарлз изгради забележителна кариера, базирана на непосредствеността на емоцията в своите изпълнения. След като се изявява като блус и джаз пианист, задължен на стила на Нат Кинг Коул в края на 1940 г., Чарлз записва буги-вуги класиката „Mess Around“ и новата песен „It Should’ve Been Me“ през 1952–1953 г. Неговият аранжимент за „The Things That I Used to Do“ на Guitar Slim става блус милионен продаден през 1953 г.</p>
-</div>
+  </script>
+ </head>
+ <body style= "background-color:#00001d;">
+<div class="zag">
+  <a href="index.html" id="ato"><h1 class="zaglavie">Jazзвезди</h1></a>
+  </div>
+  
+  <div class="snimka_tekst">
+   <img style="padding-left: 5%; padding-top: 2%" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Ray_Charles_1964.jpg" width="27%">
+    <img style="position: absolute; margin-left: 5%; margin-top: 10%" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Ray_Charles_260971neu000.jpg" width="15%">
+   <p style= " position: absolute; margin-top: -20%;padding-left: 34%;"> ,,Братко Чарлс'' е музикант, пианист и интелигент. Негова страст е музиката, която съчетава джаз, блус и госпел. Сред неговите най - успешни произведения са: ,,Georgia On My Mind", ,,Hit the Road Jack" и ,,What'd I Say" Чарлз изгради забележителна кариера, базирана на непосредствеността на емоцията в своите изпълнения. След като се изявява като блус и джаз пианист, задължен на стила на Нат Кинг Коул в края на 1940 г., Чарлз записва буги-вуги класиката „Mess Around“ и новата песен „It Should’ve Been Me“ през 1952–1953 г. Неговият аранжимент за „The Things That I Used to Do“ на Guitar Slim става блус милионен продаден през 1953 г.</p>
+  
  
- <table>
-  <tr>
-  <th>Песен</th>
-  <th>Изпълнител</th>
-  <th>Пусни</th>
-  </tr>
-  <tr>
-  <td>Georgia On My Mind </td>
-  <td>Рей Чарлс</td>
-  <td><button onclick="toggle();">Пусни</button></td>
-  </tr>
-  <tr>
-  <td>Lois</td>
-  <td>Griffin</td>
-  <td><button onclick="togglee();">Пусни</button></td>
-  </tr>
-  <tr>
-  <td>Joe</td>
-  <td>Swanson</td>
-  <td>$300</td>
-  </tr>
-  <tr>
-  <td>Cleveland</td>
-  <td>Brown</td>
-  <td>$250</td>
-  </tr>
-</table>
-
-<!--<iframe id="tuka" style = "visible"width="560" height="315" src="https://www.youtube.com/embed/-DFhuE_XeT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
- <div id=tuka hidden>
- <video width="320" height="240" controls>
-  <source src="https://upload.wikimedia.org/wikipedia/commons/5/59/Young_Mr._Jazz_%281919%29.webm
-" type="video/webm">
+  </div> 
+ </div>
  
-Your browser does not support the video tag.
-</video> 
-</div>
-<div id=tukaa hidden>
- <audio controls>
-  <source src="https://upload.wikimedia.org/wikipedia/commons/8/87/Jazz_Trombone.ogg" type="audio/ogg">
-Your browser does not support the audio element.
-</audio> 
-</div>
+    
+ 
+   
+  <table>
+   <tr>
+    <th>Песен</th>
+    <th>Изпълнител</th>
+    <th>Пусни</th>
+   </tr>
+  <tr>
+    <td>Georgia On My Mind </td>
+    <td>Рей Чарлс</td>
+    <td><button onclick="toggle();">Пусни</button></td>
+  </tr>
+   <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td><button onclick="togglee();">Пусни</button></td>
+   </tr>
+   <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+   </tr>
+   <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+   </tr>
+  </table>
 
-https://upload.wikimedia.org/wikipedia/commons/8/87/Jazz_Trombone.ogg
+  <!--<iframe id="tuka" style = "visible"width="560" height="315" src="https://www.youtube.com/embed/-DFhuE_XeT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+   <div id=tuka hidden>
+    <video width="320" height="240" controls>
+    <source src="https://upload.wikimedia.org/wikipedia/commons/5/59/Young_Mr._Jazz_%281919%29.webm" type="video/webm">
+ 
+    Your browser does not support the video tag.
+    </video> 
+  </div>
+  <div id=tukaa hidden>
+   <audio controls>
+   <source src="https://upload.wikimedia.org/wikipedia/commons/8/87/Jazz_Trombone.ogg" type="audio/ogg">
+   Your browser does not support the audio element.
+   </audio> 
+  </div>
+  
+  
+  
+
+  <div id="link">
+    <a href="https://www.britannica.com/biography/Ray-Charles">
+    <p>Източници: Britannica</p>
+   </a> 
+ 
+ 
 </body>
 </html> 
