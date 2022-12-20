@@ -1,0 +1,76 @@
+h1.zaglavie
+   {
+    font-size:3vw;
+    <--! margin-left:280%; >
+    padding-top: 0%;
+    user-select: none;
+   }
+   p
+   {
+    color:#ffffe6;
+   }
+   #ato:link, #ato:visited
+   {
+    margin-left:43%;
+    text-decoration: none;
+    display: inline-block;
+    color:#ffffe6;
+   }
+   #ato:hover, #ato:active 
+   {
+    background-color: transperant;
+    cursor: pointer;
+    color:#fffff3;
+   }
+
+
+
+   table
+   {
+    border-collapse: collapse;
+    width: 30%;
+    padding-left:5%;
+   }
+
+   th, td 
+   {
+    text-align: left;
+    padding: 1%;
+   }
+
+    tr:nth-child(odd) 
+   {
+    background-color: #ffffe6;
+   }
+   tr:nth-child(even) 
+   {
+    background-color: #fffff6;
+   }
+   #link
+   {
+    position: absolute;
+    padding-left:5%;
+	margin-bottom:0%;
+   }
+
+
+  h1.zaglavieto
+  {
+
+    font-size:4vw;
+    padding-left: 40%;
+    padding-top: 8%;
+    color:#ffffe6;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transperant;
+    user-select: none;
+  }
+  .snimki_nachalo
+  {
+	     padding-left: 3%;
+  }
+  #ray
+  {
+  	padding-top: 7%;padding-bottom: 7s%;
+  }
