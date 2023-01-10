@@ -1,13 +1,16 @@
 h1.zaglavie
    {
     font-size:3vw;
-    <--! margin-left:280%; >
+    <--! margin-left:280%; -->
     padding-top: 0%;
     user-select: none;
    }
    p
    {
     color:#ffffe6;
+    font-family: 'TipotypeRegular' ,  sherif;
+   font-weight: normal;
+   font-style: normal; 
    }
    #ato:link, #ato:visited
    {
@@ -66,9 +69,9 @@ h1.zaglavie
     background-color: transperant;
     user-select: none;
   }
-  .snimki_nachalo
+  #snimki_nachalo > a
   {
-	     padding-left: 3%;
+	padding-left: 3%;
   }
   #ray
   {
