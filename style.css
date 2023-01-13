@@ -1,9 +1,18 @@
-h1.zaglavie
+   body
+   {
+   	background-color:#00001d;
+   }
+   h1.zaglavie
    {
     font-size:3vw;
     <--! margin-left:280%; -->
     padding-top: 0%;
     user-select: none;
+   }
+   h2
+   {
+   	 color:#ffffe6;
+   	 padding-left:2%;
    }
    p
    {
@@ -38,16 +47,16 @@ h1.zaglavie
    th, td 
    {
     text-align: left;
-    padding: 1%;
+    padding-left: 1%;
    }
 
     tr:nth-child(odd) 
    {
-    background-color: #ffffe6;
+    background-color: #FFF7D9;
    }
    tr:nth-child(even) 
    {
-    background-color: #fffff6;
+    background-color: #FFFAE6;
    }
    #link
    {
@@ -69,15 +78,18 @@ h1.zaglavie
     background-color: transperant;
     user-select: none;
   }
-  #snimki_nachalo > a
+  #snimki_nachalo a
   {
 	padding-left: 3%;
   }
-  #ray
+  #snimki_nachalo_dwijenie section
   {
-  	padding-top: 3%;padding-bottom: 7%;
+  	padding-top: 10%;
+  
   }
+ 
   #ray_snimka
   {
   	padding-left: 5%; padding-top: 2%
   }
+  
