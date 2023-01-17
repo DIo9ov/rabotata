@@ -76,14 +76,14 @@ h1.zaglavieto {
 	user-select: none;
 }
 
-#snimki_nachalo a {
+/*#snimki_nachalo a {
 	padding-left: 3%;
 }
 
 
 #ray_snimka {
 	margin-left: 5%;
-	matgin-top: 2%;
+	margin-top: 2%;
 	margin-bottom: 5%;
 }
 
@@ -99,14 +99,19 @@ h1.zaglavieto {
 }
 
 #nagore {
-	padding-bottom: 10%;
-}
+	padding-bottom<: 10%;
+}*/
 
 ::selection {
 	color: black;
 	background: #ffffe6;
 }
 
-[title~=snimka] {
+/*[title~=snimka] {
 	border: 5px solid #FFF7D9;
+}*/
+.flex
+{
+	padding-left:1%;
+	padding-right:1%;
 }
