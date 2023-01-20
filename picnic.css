@@ -223,7 +223,7 @@ i[class^=icon-]:before,i[class*=" icon-"]:before{
 }
 .pseudo.dropimage,button.pseudo,.pseudo.button,.pseudo[type=submit],.pseudo.label,.pseudo[data-tooltip]:after{
     background-color:transparent;
-    color:inherit
+    color:#ffffe6;
 }
 .label,[data-tooltip]:after{
     font-size:.6em;
@@ -2529,7 +2529,7 @@ nav{
     right:0;
     height:3em;
     padding:0 .6em;
-    background:#fff;
+    background:#00001d;
     box-shadow:0 0 .2em rgba(170,170,170,.2);
     z-index:10000;
     transition:all .3s;
