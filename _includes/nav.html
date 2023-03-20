@@ -6,7 +6,7 @@
       <input id="bmenub" type="checkbox" class="show" />
       <label for="bmenub" class="burger pseudo button">menu</label>
       <div class="menu">
-        <a href="ray_charles.html" class="pseudo button icon-picture">Рей Чарлс</a>
-        <a href="louis_armstrong.html" class="pseudo button icon-picture">Луис Армстронг</a>
+        <a href="ray_charles.html" class="{% if page.name != 'ray_charles.html' %}pseudo{% endif%} button icon-picture">Рей Чарлс</a>
+        <a href="louis_armstrong.html" class="{% if page.name != 'louis_armstrong.html' %}pseudo{% endif%} button icon-picture">Луис Армстронг</a>
       </div>
     </nav>
